@@ -1,0 +1,31 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: Arial, sans-serif;
+    background-image: url(.//Digital\ Clock.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#time-container {
+    text-align: center;
+    background: skyblue;
+    padding: 20px;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 50px;
+    border-width: 10px;
+    border-left: 50px;
+    border-right: 50px;
+    border-style: solid;
+    border-block-start-width: 50px;
+    border-block-end: 50px;
+    border-color: yellowgreen;
+}
+
+#day, #time, #month-year {
+    margin: 10px 0;
+    font-size: 100px;
+    
+}
